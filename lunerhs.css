@@ -1,0 +1,420 @@
+/* ==UserStyle==
+@name           Lunerhs
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    a luner codehs theme
+@author         North
+==/UserStyle== */
+@-moz-document domain("codehs.com") {
+    .ace-terminal-theme {
+        background-color: #0009 !important;
+    }
+
+    body {
+        background: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif) !important;
+        background-attachment: fixed !important;
+        color: #f91 !important;
+    }
+
+    #problem-sidebar {
+        background-color: #0009 !important;
+    }
+
+    .xterm-wrapper.__abacus_light-mode {
+        background-color: #0009 !important;
+    }
+
+    .xterm-viewport {
+        background-color: #0000 !important;
+    }
+    .xterm-screen {
+        background-color: #0000 !important;
+    }
+
+    #share-modal {
+        background-color: #f00;
+    }
+
+    #editor-bottombar-nav {
+        background-color: #000c !important;
+    }
+
+    .__abacus_drag-bar {
+        background-color: #000c !important;
+    }
+
+    .new-navbar.navbar {
+        background-color: #000c !important;
+    }
+
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-text {
+        color: #f91 !important;
+    }
+
+    .__abacus_editor-tab-bar {
+        background-color: #000c !important;
+    }
+
+    .__abacus_run-bar.__abacus_light-mode,
+    .__abacus_debug-bar.__abacus_light-mode {
+        background-color: #000c !important;
+    }
+
+    .hmqpxx {
+        background-color: #000c !important;
+    }
+
+    .fUWMBl {
+        background-color: #000c !important;
+        color: #f91 !important;
+    }
+
+    #status-message {
+        color: #f91 !important;
+    }
+
+    .btn-main-slate {
+        color: #f91 !important;
+    }
+
+    .sticky-header {
+        background-color: #000c !important;
+    }
+
+    .ui-widget-content {
+        background: #000c !important;
+        color: #f91 !important;
+    }
+
+    .table-header-sticky {
+        background: #000c !important;
+    }
+
+    code {
+        background: #000f !important;
+    }
+
+    #directions-modal .top {
+        background: #000c !important;
+    }
+
+    #directions-modal .directions {
+        background: #000c !important;
+    }
+
+    #directions-modal .bottom {
+        background: #000c !important;
+    }
+
+    #sidebar-content-tab.tab-pane a.lesson-item.current,
+    #sidebar-content-tab.tab-pane a.search-item.current {
+        background-color: #000;
+    }
+
+    #sidebar-content-tab.tab-pane .lesson-content a.lesson-item.not-submitted .item-title {
+        color: #f00 !important;
+    }
+
+    #sidebar-content-tab.tab-pane .lesson-content a.lesson-item.not-submitted .item-icon {
+        background-color: #f00 !important;
+    }
+
+    .__abacus_file-list li {
+        color: #f91 !important;
+    }
+
+    svg {
+        color: #f91 !important;
+    }
+
+    .hhtNKK {
+        background: #000c !important;
+    }
+
+    #directions-modal .top .points-badge {
+        background-color: #0000;
+    }
+
+    #directions-modal .top > h2 .item-title {
+        color: #f91 !important;
+    }
+
+    #directions-modal .top .points-badge {
+        color: #f91 !important;
+    }
+
+    .__abacus_left-tab {
+        color: #f91 !important;
+    }
+
+    input {
+        background: #000c !important;
+    }
+
+    .hZLFfJ {
+        background: #000c !important;
+    }
+
+    .burTxB {
+        background: #000c !important;
+    }
+
+    .StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 {
+        background-color: #f91 !important;
+    }
+
+    #status-message span:first-child:not(.blank) {
+        border: 2px solid #f91;
+    }
+
+    #editor-bottombar-nav .module-item.unopened {
+        background: #555c !important;
+    }
+
+    #sidebar-content-tab.tab-pane .module-progress .module-title {
+        color: #f91 !important;
+    }
+
+    pre {
+        background: #000c !important;
+    }
+
+    pre code {
+        color: #c7254e !important;
+    }
+
+    legend,
+    pre {
+        color: #f91 !important;
+    }
+
+    .take-quiz-page .stats-options-container {
+        background: #000c !important;
+    }
+
+    .take-quiz-page .quiz-questions > li {
+        background: #000c !important;
+    }
+
+    #directions-modal .ex-dirs {
+        background: #0000 !important;
+    }
+
+    #problem-sidebar .ex-objective .objective {
+        color: #f91 !important;
+    }
+
+    #problem-sidebar .ex-objective .ex-objective-title {
+        color: #f00 !important;
+    }
+
+    #lms-grading-tab #current-grade-status:before {
+        background: #0000 !important;
+        color: #f91 !important;
+    }
+
+    #lms-grading-tab #current-grade-status .grade-score-container {
+        background: #0000 !important;
+        color: #f91 !important;
+    }
+
+    #lms-grading-tab #current-grade-status .grade-out-of {
+        color: #f91 !important;
+    }
+
+    .new-navbar.navbar .navbar-brand img {
+        visibility: hidden !important;
+    }
+
+    .new-navbar.navbar .navbar-brand {
+        background: url(https://violetpheonix.net/index.php/apps/theming/image/logoheader?v=12) !important;
+        background-position: center !important;
+        background-size: 46px 46px !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .modal-content {
+        color: #f91 !important;
+        background: #000c !important;
+    }
+    
+    #user-page #wrapper {
+        background: #000c !important; 
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper .user-page-section {
+        color: #f91 !important;
+    }
+    
+    .wrap {
+         background: #000c !important;
+    }
+    
+    #user-page #wrapper #messages-center {
+        color-scheme: dark;
+    }
+    
+    #user-page #wrapper #messages-center #messages-unread {
+        background: #000c !important;
+    }
+    
+    #user-page #wrapper #messages-center #messages-unread tr {
+        background: #000c !important;
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper #messages-center #messages-unread .message-age, #user-page #wrapper #messages-center #messages-unread .message-name {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper #messages-center #messages-unread .message-item-title {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper #messages-center #messages-unread p {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper .course-list-tile {
+        background: #000c !important;
+        color: #f91 !important;
+    }
+    
+    #user-section-name {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper .course-list-tile {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper .course-list-tile #percentage-passed {
+        color: #f91 !important;
+    }
+    
+    .bg-blue {
+        background-color: #f91 !important;
+    }
+    
+    .sidenav {
+        background: #000c !important;
+    }
+    
+    #user-page {
+        color: #f91 !important;
+    }
+    
+    .sidenav .sidenav-name {
+        color: #f91 !important;
+    }
+    
+    .sidenav ul li a {
+        color: #f91 !important;
+    }
+    .dashboard-subtitle {
+        color: #f91 !important;
+    }
+    
+    #user-page #wrapper .icon-remove {
+        color: #f00 !important;
+    }
+    
+    .close {
+        opacity: 1;
+        text-shadow: 0 1px 0 #000;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper {
+        background: #000c !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-header .course-title {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #resume-div a:nth-of-type(1) {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .module-info .module-title {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-header-text .lesson-title {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .module-info .lesson-count {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .module-info-right .percent-box.percent-0 {
+        background-color: #000 !important;
+        color: #f91 !important;
+    }
+    
+    .bg-slate {
+        background-color: #000 !important;
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .module-info-right .percent-box span {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-toggle span, #all-assignments-page #assignments-page-wrapper #course-sec .module-toggle span {
+        color: #f91 !important;
+    }
+    
+    .progressbar .bg-slate {
+        background-color: #f91 !important;
+    }
+    
+    .progressbar {
+         background-color: #444 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #user-profile {
+         background-color: #0000 !important;
+    }
+    
+    .metrics-table p:nth-child(2){
+        color: #f91 !important;
+    }
+    
+    .metrics-table p:nth-child(1){
+        color: #f91 !important;
+    }
+    
+    .activity-skeleton .activity-skeleton-grid {
+         background-color: #0000 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .module-item.unopened {
+        background-color: #000 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item-wrapper {
+        background-color: #0000 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item .item-type {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item .item-title {
+        color: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-status.unopened {
+        background-color: #000 !important;
+        color: #f91 !important;
+        border: #f91 !important;
+    }
+    
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-status {
+        color: #000 !important;
+    }
+}
