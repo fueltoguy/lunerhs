@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           Lunerhs
-@namespace      https://github.com/fueltoguy/lunerhs
-@version        2.0.0
+@namespace      idfk
+@version        2.0
 @description    a luner codehs theme
-@author         North
+@author         Fueltoguy
+@updateURL  https://raw.githubusercontent.com/fueltoguy/lunerhs/main/lunerhs.css
 ==/UserStyle== */
-
 @-moz-document domain("codehs.com") {
     #ace-editor {
         background-color: #0009 !important;
