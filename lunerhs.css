@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Lunerhs
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
+@namespace      github.com/fueltoguy/lunerhs
+@version        2.0.0
 @description    a luner codehs theme
-@author         North
+@author         Fueltoguy
 ==/UserStyle== */
 @-moz-document domain("codehs.com") {
-    .ace-terminal-theme {
+    #ace-editor {
         background-color: #0009 !important;
     }
 
@@ -238,182 +238,184 @@
         color: #f91 !important;
         background: #000c !important;
     }
-    
+
     #user-page #wrapper {
-        background: #000c !important; 
+        background: #000c !important;
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper .user-page-section {
         color: #f91 !important;
     }
-    
+
     .wrap {
-         background: #000c !important;
+        background: #000c !important;
     }
-    
+
     #user-page #wrapper #messages-center {
         color-scheme: dark;
     }
-    
+
     #user-page #wrapper #messages-center #messages-unread {
         background: #000c !important;
     }
-    
+
     #user-page #wrapper #messages-center #messages-unread tr {
         background: #000c !important;
         color: #f91 !important;
     }
-    
-    #user-page #wrapper #messages-center #messages-unread .message-age, #user-page #wrapper #messages-center #messages-unread .message-name {
+
+    #user-page #wrapper #messages-center #messages-unread .message-age,
+    #user-page #wrapper #messages-center #messages-unread .message-name {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper #messages-center #messages-unread .message-item-title {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper #messages-center #messages-unread p {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper .course-list-tile {
         background: #000c !important;
         color: #f91 !important;
     }
-    
+
     #user-section-name {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper .course-list-tile {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper .course-list-tile #percentage-passed {
         color: #f91 !important;
     }
-    
+
     .bg-blue {
         background-color: #f91 !important;
     }
-    
+
     .sidenav {
         background: #000c !important;
     }
-    
+
     #user-page {
         color: #f91 !important;
     }
-    
+
     .sidenav .sidenav-name {
         color: #f91 !important;
     }
-    
+
     .sidenav ul li a {
         color: #f91 !important;
     }
     .dashboard-subtitle {
         color: #f91 !important;
     }
-    
+
     #user-page #wrapper .icon-remove {
         color: #f00 !important;
     }
-    
+
     .close {
         opacity: 1;
         text-shadow: 0 1px 0 #000;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper {
         background: #000c !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-header .course-title {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #resume-div a:nth-of-type(1) {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .module-info .module-title {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-header-text .lesson-title {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .module-info .lesson-count {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .module-info-right .percent-box.percent-0 {
         background-color: #000 !important;
         color: #f91 !important;
     }
-    
+
     .bg-slate {
         background-color: #000 !important;
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .module-info-right .percent-box span {
         color: #f91 !important;
     }
-    
-    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-toggle span, #all-assignments-page #assignments-page-wrapper #course-sec .module-toggle span {
+
+    #all-assignments-page #assignments-page-wrapper #course-sec .lesson-toggle span,
+    #all-assignments-page #assignments-page-wrapper #course-sec .module-toggle span {
         color: #f91 !important;
     }
-    
+
     .progressbar .bg-slate {
         background-color: #f91 !important;
     }
-    
+
     .progressbar {
-         background-color: #444 !important;
+        background-color: #444 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #user-profile {
-         background-color: #0000 !important;
+        background-color: #0000 !important;
     }
-    
-    .metrics-table p:nth-child(2){
+
+    .metrics-table p:nth-child(2) {
         color: #f91 !important;
     }
-    
-    .metrics-table p:nth-child(1){
+
+    .metrics-table p:nth-child(1) {
         color: #f91 !important;
     }
-    
+
     .activity-skeleton .activity-skeleton-grid {
-         background-color: #0000 !important;
+        background-color: #0000 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .module-item.unopened {
         background-color: #000 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item-wrapper {
         background-color: #0000 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item .item-type {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-item .item-title {
         color: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-status.unopened {
         background-color: #000 !important;
         color: #f91 !important;
         border: #f91 !important;
     }
-    
+
     #all-assignments-page #assignments-page-wrapper #course-sec .lesson-header .lesson-status {
         color: #000 !important;
     }
